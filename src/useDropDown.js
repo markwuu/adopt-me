@@ -23,7 +23,7 @@ const useDropdown = (label, defaultState, options) => {
     </label>
   );
 
-  return [state, Dropdown, setState];
+  return [state, setState, Dropdown];
 };
 
 export default useDropdown;
